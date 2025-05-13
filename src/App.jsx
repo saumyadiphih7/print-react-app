@@ -73,7 +73,7 @@ const data = {
           "Content-Type": "application/json",
           "x-api-key": "print-secure-key",
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify(data.data),
       });
 
       if (!response.ok) {
